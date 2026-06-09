@@ -1,0 +1,63 @@
+# =============================================================================
+# .gitignore — SplendidCube GitHub special repo (.github / .github-private)
+# -----------------------------------------------------------------------------
+# These org-profile repos sit outside the `dev-env` project sync, so they don't
+# receive the shared common-files .gitignore. This is a standalone, trimmed copy
+# covering only OS- and editor-generated junk — the only noise these docs-only
+# repos produce. Keep it aligned with the "Operating system" / "Editors & IDEs"
+# sections of the canonical `common-files/.gitignore`.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Operating system
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+Icon?
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# -----------------------------------------------------------------------------
+# Editors & IDEs
+# -----------------------------------------------------------------------------
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (local noise only)
+.history/
+*.code-workspace
+.vscode/*.local
+
+# Vim / Emacs / misc backups
+*.swp
+*.swo
+*.swn
+.\#*
+\#*\#
+*.bak
+*.orig
